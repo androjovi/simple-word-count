@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    .navbar-fixed {
+      position: absolute;
+      z-index: 999999999;
+    }
+  </style>
+
+  <div class="navbar-fixed">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <div class="row">
+          <div class="col s12">
+            <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+            <a href="javascript:void(0)" class="brand-logo" target="_blank">Sigurjel</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="javascript:void(0)" target="_blank">Instagram</a></li>
+              <li><a href="javascript:void(0)" target="_blank">About me</a></li>
+              <li><a href="javascript:void(0)" target="_blank">Side project</a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="javascript:void(0)" target="_blank">Instagram</a></li>
+          <li><a href="javascript:void(0)" target="_blank">About me</a></li>
+          <li><a href="javascript:void(0)" target="_blank">Side project</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="main-text">
+    <div class="row">
+      <div class="col s12">
+        <h3><span class="bolder">Word Count</span> Generator</h3>
+        <p>You can count your character or words up 9999 characters in super million seconds
+        </p>
+            <textarea class="input-field textarea-field z-depth-2" id="our-text" placeholder="Anything... Max 10000 Characters" maxlength="10000" value=""></textarea>
+      </div>
+    </div>
+    <div class="row section">
+      <div class="col s12">
+      </div>
+      <div class="section container">
+        <div class="col s12">
+            <p id="words" class="left"></p>
+            <p id="chara" class="left"></p>
+            <p id="paragraph" class="left"></p>
+            <p id="whitespace" class="left"></p>
+            <p id="digit" class="left"></p>
+            <p id="readspeed" class="left"></p>
+        </div>
+      </div>
+      <button class="btn" onclick="getFre()">Fell</button>
+      <p id="mamak"></p>
+    </div>
+  </div>
+  <div class="gg">
+</body>
+
+</html>

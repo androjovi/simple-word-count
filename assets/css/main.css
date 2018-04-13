@@ -1,0 +1,72 @@
+body{
+  background-color: #000;
+  filter: brightness(1);
+  width: 100%;
+  height: 100%;
+}
+.textarea-field{
+  resize: none;
+  width: 50%;
+  height: 250px;
+  
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+		z-index: 1;
+		top: 0px;
+}
+.striketg{
+  text-decoration: line-through;
+
+}
+.bolder{
+  font-weight: bold;
+}
+.italicu{
+  font-style: italic;
+}
+.main-text{
+		position: absolute;
+		top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+		z-index: 2;
+		color: #fff;
+    text-align: center;
+	}
+input[type=text]:not(.browser-default){
+  top: 50px;
+  width: 50%;
+  border-radius: 2px;
+  color: black;
+  padding: 4px;
+
+  background-color: white;
+}
+input[type=text]:focus(.browser-default){
+  background-color: black;
+}
+#results{
+  width: 100%;
+  max-height: 50%;
+  text-align: left;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.btn-bold{
+  background-color: #f1c40f;
+}
+.btn-italic{
+  background-color: #34495e;
+}
+.btn-strike{
+  background-color: #e74c3c;
+}
+.ket{
+  position: absolute;
+  margin-top: 150px;
+}
