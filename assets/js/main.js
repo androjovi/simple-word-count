@@ -36,7 +36,7 @@ $(document).ready(function() {
         $("#readspeed").html("<5s Reading speed ")
       }
 
-      if (value.length >= 10000) {
+      if (value.length >= 100000000) {
         alert('WOW Amazing..')
       }
     })
